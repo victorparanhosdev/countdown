@@ -36,4 +36,4 @@ Font Weight: 300, 400 e 500 <br>
 
 Você pode encontrar a fonte no [Google Fonts](https://fonts.google.com/) <br><br>
 
-Feito com 💜 por Rocketseat 👋
+Feito com 💜
