@@ -5,9 +5,26 @@ const minutos = document.querySelector(".minutos");
 const segundos = document.querySelector(".segundos");
 
 
-function contdown(){
+const EventClick = {
+    clicar() {
+        document.querySelector(".caixa-menu").classList.add("ativo")
+    },
+
+    fechar() {
+        document.querySelector(".caixa-menu").classList.remove("ativo")
+    }
+}
+
+
+function format(time){
+    return time < 10 ? "0" + time : time;
+
+}
+
+
+setInterval(() => {
     const AnoAtual = new Date().getFullYear();
-    const novaData = new Date(`04 Mar ${AnoAtual}`);
+    const novaData = new Date(`22 Mar ${AnoAtual}`);
     const DataAtual = new Date()
 
     const TotalSegundos = (novaData - DataAtual) / 1000
@@ -20,13 +37,5 @@ function contdown(){
     horas.innerHTML = format(hor);  
     minutos.innerHTML = format(minutes);
     segundos.innerHTML = format(seconds);   
-}
+}, 1000);
 
-
-function format(time){
-    return time < 10 ? "0" + time : time;
-
-}
-
-
-setInterval(contdown, 1000);

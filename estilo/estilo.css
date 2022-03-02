@@ -100,6 +100,77 @@ a:hover {
 
 }
 
+/*FULLSCREEN ===============*/
+
+.caixa-menu {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.616);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+
+}
+
+.caixa-menu.ativo {
+  opacity: 1;
+  visibility: visible;
+}
+.caixa-menu .caixa-dados {
+  padding: 1rem;
+  max-width: 450px;
+  width: 90vw;
+ 
+  background-color: rgba(255, 255, 255, 0.911);
+}
+
+.caixa-menu .caixa-dados form fieldset {
+  padding: 1rem;
+  background-color: rgba(182, 182, 182, 0.349)
+}
+#botoes{
+  display: flex;
+  margin: 0.5rem;
+}
+#botoes input {
+  padding: 0.5rem 2rem;
+  width: 100%;
+  margin-left: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 3px 0px black;
+  background-color: var(--purple);
+  color: white;
+  font-weight: 100;
+  font-size: 0.8rem;
+  
+}
+input{
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 0.4rem;
+}
+
+input:focus {
+  border: 1px solid var(--purple);
+}
+h2 {
+  color: var(--purple);
+  text-align: center;
+}
+label, legend {
+  color: black;
+}
+
+
 @media (max-width:768px) {
     .conteudo {
       display: block;
