@@ -4,11 +4,10 @@ const horas = document.querySelector(".horas");
 const minutos = document.querySelector(".minutos");
 const segundos = document.querySelector(".segundos");
 
-const NewAno = "04 Mar 2022"
-
 
 function contdown(){
-    const novaData = new Date(NewAno);
+    const AnoAtual = new Date().getFullYear();
+    const novaData = new Date(`04 Mar ${AnoAtual}`);
     const DataAtual = new Date()
 
     const TotalSegundos = (novaData - DataAtual) / 1000
