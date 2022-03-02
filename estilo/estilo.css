@@ -139,9 +139,8 @@ a:hover {
   margin: 0.5rem;
 }
 #botoes input {
-  padding: 0.5rem 2rem;
   width: 100%;
-  margin-left: 0.5rem;
+  margin-left: 1rem;
   border-radius: 0.5rem;
   box-shadow: 1px 1px 3px 0px black;
   background-color: var(--purple);
@@ -149,6 +148,10 @@ a:hover {
   font-weight: 100;
   font-size: 0.8rem;
   
+}
+
+.button {
+  padding: 1rem 2rem;
 }
 input{
   width: 100%;
@@ -159,8 +162,8 @@ input{
   border-radius: 0.4rem;
 }
 
-input:focus {
-  border: 1px solid var(--purple);
+input:hover {
+  opacity: 0.9;
 }
 h2 {
   color: var(--purple);
