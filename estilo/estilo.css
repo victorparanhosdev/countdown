@@ -93,19 +93,17 @@ a:hover {
 
 #logo-foguete {
   max-width: 500px;
-  width: 100%;
+
   padding: 1rem;
 
 }
 
-@media (max-width:900px) {
+@media (max-width:768px) {
     .conteudo {
       display: block;
       
     }
-    body {
-      height: 100%;
-    }
+   
     #caixa-direita {
       display: flex;
       align-items: center;
@@ -113,8 +111,19 @@ a:hover {
     }
   
     #logo-foguete{
-      max-width: 70vw;
+      max-width: 80vw;
     }
+}
+
+@media (max-width:425px) {
+  h1{
+    font-size: 1.5rem;
+  }
+
+  ul li div{
+  font-size: 2.8rem;
+
+}
 }
 
 @media (min-width:2560px){
@@ -123,5 +132,3 @@ a:hover {
   }
  
 }
-
-
