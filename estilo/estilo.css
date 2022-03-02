@@ -113,16 +113,8 @@ a:hover {
     }
   
     #logo-foguete{
-      max-width: 80vw;
+      max-width: 70vw;
     }
-}
-
-@media (max-width:425px){
-  html {
-    font-size: 60%
-  }
- 
-  
 }
 
 @media (min-width:2560px){
