@@ -3,11 +3,13 @@ const dias = document.querySelector(".dias");
 const horas = document.querySelector(".horas");
 const minutos = document.querySelector(".minutos");
 const segundos = document.querySelector(".segundos");
-
+const Nome = document.getElementById("name");
 
 const EventClick = {
     clicar() {
-        document.querySelector(".caixa-menu").classList.add("ativo")
+        document.querySelector(".caixa-menu").classList.add("ativo");
+        Nome.focus()
+        
     },
 
     fechar() {

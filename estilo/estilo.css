@@ -145,15 +145,13 @@ a:hover {
   box-shadow: 1px 1px 3px 0px black;
   background-color: var(--purple);
   color: white;
-  font-weight: 100;
-  font-size: 0.8rem;
-  
+  font-weight: 200;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+
 }
 
-.button {
-  padding: 1rem 2rem;
-}
-input{
+div.cadastro input {
   width: 100%;
   outline: none;
   border: none;
@@ -162,7 +160,11 @@ input{
   border-radius: 0.4rem;
 }
 
-input:hover {
+div.cadastro input:focus{
+  border: 1px solid var(--purple)
+}
+
+#botoes input:hover {
   opacity: 0.9;
 }
 h2 {
