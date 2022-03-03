@@ -1,6 +1,6 @@
 # 💻 Sobre o desafio
 
-<p align="center"><img height="400px" src="./interface/Countdown.png" alt="Interface do Desafio Countdown"></p>
+<p align="center"><img width"80vw" src="./interface/Countdown.png" alt="Interface do Desafio Countdown"></p>
 
 Criação da página de `coming soon` para o lançamento de um site, produto ou serviço, e na página deve ter um **countdown timer** informando quanto tempo falta para o lançamento.
 
